@@ -1,0 +1,25 @@
+
+.expense-item {
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+    align-items: center;
+}
+.expense_description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.date {
+    width: 15%;
+    text-align: center;
+}
+.price {
+    background: rgb(6, 181, 128);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+}
